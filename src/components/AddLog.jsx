@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
+import NavigationBar from "./NavigationBar";
 
 const AddLog = () => {
   const [input, changeInput] = useState({
@@ -37,6 +38,7 @@ const AddLog = () => {
 
   return (
     <div>
+      <NavigationBar/>
       <div className="container mt-4">
         <div className="row justify-content-center">
           <div className="col-12 col-sm-10 col-md-8 col-lg-6">

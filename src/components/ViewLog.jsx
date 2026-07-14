@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import NavigationBar from "./NavigationBar";
 
 const ViewLog = () => {
   const [logs, setLogs] = useState([]);
@@ -22,6 +23,7 @@ const ViewLog = () => {
 
   return (
     <div className="container mt-4">
+        <NavigationBar/>
       <h3 className="text-center mb-4">View Lab Logs</h3>
 
       <div className="table-responsive">
