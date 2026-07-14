@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import ViewLog from './components/ViewLog'
+import AddLog from './component/AddLog'
 
 function App() {
   const [count, setCount] = useState(0)
